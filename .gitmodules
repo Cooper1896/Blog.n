@@ -1,0 +1,3 @@
+[submodule "themes/anzhiyu"]
+	path = themes/anzhiyu
+	url = https://github.com/anzhiyu-theme/hexo-theme-anzhiyu.git
