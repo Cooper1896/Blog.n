@@ -1,0 +1,47 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Java
+      color: "#fff"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_java_320x412.jpg
+    - name: Docker
+      color: "#57b6e6"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_docker_160x128.png
+    - name: Photoshop
+      color: "#4082c3"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/ps.png
+    - name: Node
+      color: "#333"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/node.svg
+    - name: Webpack
+      color: "#2e3a41"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_webpack_300x300.png
+    - name: Python
+      color: "#fff"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/python.png
+    - name: Vite
+      color: "#937df7"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/vite-logo.svg
+    - name: Flutter
+      color: "#4499e4"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_flutter_100x100.png
+    - name: Vue
+      color: "#b8f0ae"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_vue_400x400.png
+    - name: React
+      color: "#222"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/react.svg
+    - name: CSS3
+      color: "#2c51db"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_css3_128x128.png
+    - name: JS
+      color: "#f7cb4f"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_js_128x128.png
+    - name: HTML
+      color: "#e9572b"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_html5_200x200.png
+    - name: Git
+      color: "#df5b40"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_git_200x200.webp
+    - name: Apifox
+      color: "#e65164"
+      icon: https://cdn.jsdelivr.net/gh/ShiJieCloud/hexo-blog-resource@master/img/logo/logo_apifox_194x180.png
