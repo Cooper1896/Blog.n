@@ -1,0 +1,45 @@
+- class_name: 我的装备
+  description: 记录我的数码装备和好物分享
+  top_background: false
+  tip: 持续更新中...
+  good_things:
+    - title: 💻 电脑设备
+      description: 日常使用的电脑设备
+      equipment_list:
+        - name: 翼龙15Pro
+          specification: AMD Ryzen 7 8845H w/RTX 4060/24GB RAM/1TB SSD
+          description: 主力机电脑，机械革命性价比超群。也是第一台自己全款购入的电脑。
+          image: /img/siteicon/computer.png
+          link: https://detail.zol.com.cn/1982/1981765/price_28_765.shtml?from=&baiduTop=
+    - title: 📱 移动设备
+      description: 日常使用的移动设备
+      equipment_list:
+        - name: iPhone 15
+          specification: 蓝色 / 256GB
+          description: 日常使用的主力手机
+          image: https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/ola-tech-iPhone-15-blue.jpeg
+          link: https://support.apple.com/zh-hk/111831
+        - name: iPad Air (第5代)
+          specification: 黑色 / 512GB / M1
+          description: M1芯片放到现在依旧能打，不过已经沦为视频播放器了。 
+          image: https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/ipad-air-finish-select-gallery-202405-11inch-space-gray.jpeg
+          link: https://support.apple.com/zh-hk/111887
+
+    - title: 🎮 外设装备
+      description: 各种外设
+      equipment_list:
+        - name: ATK V75X
+          specification: 长春花轴(侧刻) / 80键 / 铝合金上盖
+          description: 主力键盘，之前买了挺多键盘，只有这一个用的最久，但是选择侧刻请慎重!!!
+          image: https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/O1CN016VNNwJ25tWiZ7eNqm_!!6000000007584-2-yinhe.png_q50.jpg_.jpg
+          link: https://www.atk.store/products/atk-vxe-v75-x-mechanical-gaming-keyboard?srsltid=AfmBOoo_g8BvyEWCMXSu3n-HvYSoLtZkGIfrhFJs-qlBEGHq2S4mkqmf
+        - name: ROG Keris Wireless AimPoint
+          specification: 36,000 DPI / 79g
+          description: 轻量化的无线鼠标，适合小手。
+          image: https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/94A80239-F7E2-443F-BE90-3F2AF6DDEFFE.png
+          link: https://rog.asus.com.cn/mice-mouse-pads/mice/wireless/rog-keris-ii-ace/
+        - name: AirPods Pro 2
+          specification: H2 / ANC / MagSafe
+          description: 好，好，好
+          image: https://cdn.jsdelivr.net/gh/Cooper1896/MyPic/111851_sp880-airpods-Pro-2nd-gen.png
+          link: https://support.apple.com/zh-hk/111851

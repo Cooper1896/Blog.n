@@ -26,7 +26,7 @@
       content: 这是第一条碎语
       date: 2025-05-03 12:00:00
       from: Hexo
-    
+
     - id: essay-002                          # ⬅️ 新增：唯一 ID
       content: 这是第二条碎语
       date: 2025-05-04 12:00:00
@@ -38,6 +38,7 @@
 ## ID 命名规范
 
 建议使用以下格式为 ID 命名：
+
 - `essay-001`, `essay-002`, `essay-003` ...
 - `essay-20250503`, `essay-20250504` ...
 - 或其他有意义的标识符
@@ -49,15 +50,19 @@
 本功能涉及以下文件的修改：
 
 ### 1. 数据文件
+
 - `source/_data/essay.yml` - 为每条闲言碎语添加 `id` 字段
 
 ### 2. 模板文件
+
 - `themes/anzhiyu/layout/includes/page/essay.pug` - 为每条内容添加独立评论容器
 
 ### 3. 样式文件
+
 - `themes/anzhiyu/source/css/_extra/essay_page/essay_page.css` - 评论区样式
 
 ### 4. 脚本文件
+
 - `themes/anzhiyu/source/js/essay-comments-init.js` - 评论系统初始化脚本
 - `themes/anzhiyu/_config.yml` - 注入评论初始化脚本
 

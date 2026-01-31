@@ -8134,7 +8134,7 @@ body:has(#console.show) #nav-music {
   body[data-type="music"] #page {
     z-index: auto;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list {
     position: fixed;
     z-index: 1002;
     width: 100%;
@@ -8145,14 +8145,14 @@ body:has(#console.show) #nav-music {
     border-radius: 15px 15px 0px 0px;
     padding: 15px 0px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list.aplayer-list-hide {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list.aplayer-list-hide {
     bottom: 0% !important;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol {
     max-height: 60vh !important;
     padding-right: 0px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol > li {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol > li {
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-flex;
@@ -8161,10 +8161,10 @@ body:has(#console.show) #nav-music {
     display: flex;
     margin: 0 10px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol > li span {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol > li span {
     color: var(--font-color);
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol > li span.aplayer-list-title {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol > li span.aplayer-list-title {
     width: 30%;
     max-width: 55%;
     width: auto;
@@ -8173,7 +8173,7 @@ body:has(#console.show) #nav-music {
     overflow: hidden;
     -webkit-box-orient: vertical;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol > li span.aplayer-list-author {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol > li span.aplayer-list-author {
     position: absolute;
     right: 10px;
     width: auto;
@@ -8183,18 +8183,18 @@ body:has(#console.show) #nav-music {
     overflow: hidden;
     -webkit-box-orient: vertical;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol > li.aplayer-list-light {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol > li.aplayer-list-light {
     background: #33a673;
     padding: 5px 20px;
     border-radius: 10px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol > li.aplayer-list-light span {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol > li.aplayer-list-light span {
     color: #fff;
   }
-  #anMusic-page meting-js .aplayer .aplayer-list ol > li.aplayer-list-light span.aplayer-list-author {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-list ol > li.aplayer-list-light span.aplayer-list-author {
     right: 15px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body {
     width: 100%;
     position: fixed;
     margin: auto;
@@ -8202,70 +8202,70 @@ body:has(#console.show) #nav-music {
     right: 0;
     top: 100px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-lrc {
     margin-top: 40px;
     height: auto;
     max-height: 200%;
     min-height: 100%;
     mask-image: linear-gradient(to bottom, #000, #000, #000, #000, rgba(0,0,0,0), rgba(0,0,0,0));
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-lrc p.aplayer-lrc-current {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-lrc p.aplayer-lrc-current {
     color: #33a673;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller {
     width: 100%;
     bottom: 100px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-volume-wrap {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-volume-wrap {
     left: -66px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-volume-wrap .aplayer-volume-bar-wrap {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-volume-wrap .aplayer-volume-bar-wrap {
     bottom: 0px;
     right: 7px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-bar-wrap {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-bar-wrap {
     margin: 0 30px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time {
     bottom: -40px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-time-inner {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-time-inner {
     position: absolute;
     width: 100%;
     margin-right: 0;
     margin-top: -33px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-time-inner .aplayer-dtime {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-time-inner .aplayer-dtime {
     position: absolute;
     right: 30px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-time-inner .aplayer-ptime {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-time-inner .aplayer-ptime {
     position: absolute;
     left: 35px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-back {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-back {
     margin: auto;
     right: 110px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-play {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-play {
     margin: auto;
     right: 0;
     left: 0;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-forward {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-forward {
     margin: auto;
     left: 110px;
     right: 0;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-order {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-order {
     position: absolute;
     left: 22px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-loop {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-loop {
     position: absolute;
     right: 25px;
   }
-  #anMusic-page meting-js .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-menu {
+  #anMusic-page #anMusic-page-meting .aplayer .aplayer-body .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon-menu {
     display: inline;
     position: absolute;
     right: 25px;

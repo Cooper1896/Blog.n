@@ -840,22 +840,35 @@ const anzhiyu = {
     }
   },
   // 获取自定义播放列表
-  getCustomPlayList: function () {
+  getCustomPlayList: async function () {
     if (!window.location.pathname.startsWith("/music/")) {
       return;
     }
     const urlParams = new URLSearchParams(window.location.search);
-    const userId = "8152976493";
-    const userServer = "netease";
     const anMusicPageMeting = document.getElementById("anMusic-page-meting");
+    
     if (urlParams.get("id") && urlParams.get("server")) {
       const id = urlParams.get("id");
       const server = urlParams.get("server");
-      anMusicPageMeting.innerHTML = `<meting-js id="${id}" server=${server} type="playlist" type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
+      anMusicPageMeting.innerHTML = `<meting-js id="${id}" server=${server} type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
+      anzhiyu.changeMusicBg(false);
     } else {
-      anMusicPageMeting.innerHTML = `<meting-js id="${userId}" server="${userServer}" type="playlist" mutex="true" preload="auto" theme="var(--anzhiyu-main)" order="list" list-max-height="calc(100vh - 169px)!important"></meting-js>`;
+      // 使用本地音乐列表 (通过劫持 meting-js 的 api 属性)
+      // server/type/id 设为任意值以满足 meting-js 的必填检查
+      // api 指向本地生成的 music.json
+      anMusicPageMeting.innerHTML = `<meting-js 
+          server="netease" 
+          type="playlist" 
+          id="local" 
+          api="/json/music.json?server=:server&type=:type&id=:id"
+          mutex="true" 
+          preload="auto" 
+          theme="var(--anzhiyu-main)" 
+          order="list" 
+          list-max-height="calc(100vh - 169px)!important">
+      </meting-js>`;
+      anzhiyu.changeMusicBg(false);
     }
-    anzhiyu.changeMusicBg(false);
   },
   //隐藏今日推荐
   hideTodayCard: function () {
